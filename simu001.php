@@ -1,5 +1,6 @@
 <?php
 
+//  /Users/artalose/github/php-recommender
 
 $data = array(
         'item1' => array(1, 2, 3, 4, 5),
