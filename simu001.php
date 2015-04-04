@@ -1,6 +1,6 @@
 <?php
 
-//  /Users/artalose/github/php-recommender
+// pwd cd /Users/artalose/github/php-recommender
 
 $data = array(
         'item1' => array(1, 2, 3, 4, 5),
@@ -10,6 +10,13 @@ $data = array(
 print_r($data);
 
 echo pearson ($data[item1], $data[item2])."\n";
+
+
+for ($i = 0; $i < 10000000000; $i++) {
+
+}
+
+echo $i;
 
 function pearson($item1ratings, $item2ratings) {
         $n = $sum1 = $sum2 = $sumSq1 = $sumSq2 = $product = 0;
